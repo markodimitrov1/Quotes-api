@@ -1,0 +1,30 @@
+tr {
+  border-collapse: collapse;
+  text-align: left;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 5px solid #ccc;
+  min-height: 20 px;
+}
+
+.quote {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  font-weight: bold;
+  font-style: italic;
+  font-size: large;
+  color: rgb(196, 76, 7);
+}
+
+.author {
+  text-align: right;
+  border-right: 1px solid black;
+}
+
+.img {
+  text-align: center;
+}
+
+img {
+  max-height: 2em;
+}

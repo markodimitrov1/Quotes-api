@@ -1,0 +1,54 @@
+.quotes {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: quotes-appear 1s ease-out forwards;
+}
+
+.quotes table {
+  border-collapse: collapse;
+  border-spacing: 5em;
+}
+
+.QuotesLoading {
+  text-align: center;
+  color: white;
+}
+
+.button {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem auto;
+}
+
+button {
+  background-color: rgb(165, 73, 73);
+  border-radius: 5px;
+  height: 3rem;
+  color: white;
+}
+
+.nvlink {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.QuotesError {
+  text-align: center;
+  color: red;
+}
+
+@keyframes quotes-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
