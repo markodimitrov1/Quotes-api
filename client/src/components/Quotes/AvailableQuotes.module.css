@@ -15,7 +15,7 @@
 
 .QuotesLoading {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .button {
@@ -29,6 +29,11 @@ button {
   border-radius: 5px;
   height: 3rem;
   color: white;
+}
+
+button:hover{
+  background-color: green;
+  cursor: pointer;
 }
 
 .nvlink {
